@@ -54,7 +54,6 @@ app.post('/naruci', async (req, res) => {
             pass: 'anaivicgas',
         }
     });
-
     await transporter.sendMail({
         to: 'ekolim.nis@gmail.com',
         subject: 'Narudžbina klijenta',
