@@ -67,7 +67,7 @@ app.post('/naruci', async (req, res) => {
         `
     })
 
-    res.send("Degas poslat")
+    res.send('Uspešno ste naručili proizvod, stupićemo u kontakt sa Vama u roku od 12 sati, možete se vratiti na početnu stranicu putem ovog <a href="/">linka</a>')
 })
 
 const PORT = process.env.PORT || 3000;
