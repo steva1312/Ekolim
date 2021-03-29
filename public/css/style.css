@@ -20,6 +20,7 @@ html {
 
 body {
     background-color: var(--bela);
+    min-height: 100vh;
 }
 
 ::-webkit-scrollbar {
@@ -286,7 +287,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: var(--tamnija-zelena);
-    
+
     bottom: 0px;
 
     width: 100%;
