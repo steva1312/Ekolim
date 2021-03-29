@@ -5,6 +5,8 @@
     --svetlo-zelena: #6ac265;
     --tamno-zelena: #3e7b3a;
     --tamnija-zelena: #004406;
+
+    --footer-height: 50px;
 }
 
 html {
@@ -221,10 +223,6 @@ body {
     margin-bottom: 20px;
 }
 
-.footer {
-    display: flex;
-}
-
 header {
     position: fixed;
     width: 100%;
@@ -288,9 +286,10 @@ footer {
     align-items: center;
     background-color: var(--tamnija-zelena);
 
-    bottom: 0px;
+    position: absolute;
 
     width: 100%;
+    height: 50px;
 
     padding: 15px 30px;
 }
