@@ -281,7 +281,7 @@ header div {
 }
 
 footer {
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--tamnija-zelena);

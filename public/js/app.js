@@ -22,5 +22,4 @@ window.addEventListener('load', () => {
     const height = 50
     const topVal = document.querySelector('html').scrollHeight - height;
     footer.style.top = `${topVal}px`
-    footer.style.display = `flex`
 })
