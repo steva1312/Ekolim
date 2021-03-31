@@ -141,7 +141,6 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 0 10% 0 10%;
-    margin-top: 100px;
     margin-bottom: 0px;
 }
 
@@ -149,6 +148,7 @@ body {
     font-size: 2.5rem;
     color: var(--tamno-zelena);
     margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .tekst {
@@ -656,6 +656,10 @@ button:hover {
 }
 
 @media screen and (max-width: 750px) {
+    .naslov-sekcije {
+        margin-top: 50px;
+    }
+
     .opis-kompanije {
         font-size: 1.4rem;
     }
