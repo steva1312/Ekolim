@@ -24,6 +24,10 @@ app.get('/naruci', (req, res) => {
     res.render('order');
 })
 
+app.get('/gostovanja', (req, res) => {
+    res.render('gostovanja');
+})
+
 app.post('/send', async (req, res) => {
     const transporter = nodemailer.createTransport({
         service: 'Gmail',

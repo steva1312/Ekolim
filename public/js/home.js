@@ -1,4 +1,4 @@
-const slogani = ['-"Kada sneg veje, limenka te greje"', '-"Limenku daj i Zemlji vrati sjaj"', '-"Našu kompaniju pordži da ti život bude duži"'];
+const slogani = ['-"Kada sneg veje, limenka te greje"', '-"Limenku daj i Zemlji vrati sjaj"', '-"Našu kompaniju podrži da ti život bude duži"'];
 const sloganEl = document.querySelector('.najslogan');
 const vreme = 7000;
 const vremeAn = 500;
