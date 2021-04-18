@@ -16,10 +16,3 @@ burger.addEventListener('click', () => {
 
     burger.classList.toggle('toggle');
 });
-
-window.addEventListener('load', () => {
-    const footer = document.querySelector('footer')
-    const height = 50
-    const topVal = document.querySelector('html').scrollHeight - height;
-    footer.style.top = `${topVal}px`
-})
