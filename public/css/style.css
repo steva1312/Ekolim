@@ -147,39 +147,48 @@ body {
 .naslov-sekcije {
     font-size: 2.5rem;
     color: var(--tamno-zelena);
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .tekst {
-    font-size: 1.3rem;
-    margin-top: 0px;
-    margin-bottom: 40px;
-}
-
-.skica {
-    float: right;
-    height: 300px;
-    margin-left: 20px;
+    font-size: 1.1rem;
+    margin: 0 50px;
 }
 
 .rad {
     border-radius: 1rem;
+    height: 200px;
+    box-shadow: 0px 0px 10px 0.1px black;
 }
 
 .toplota {
     width: 400px;
-    float: left;
-    margin-right: 20px;
+    height: auto;
 }
 
-.ugao {
-    width: 300px;
-    float: right;
-    margin-left: 20px;
+.pod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.podnaslov {
+    font-size: 1.5rem;
+    color: var(--tamnija-zelena);
+    margin-bottom: 30px;
+}
+
+.kn {
+    display: flex;
+    align-items: center;
+}
+.pod:nth-child(even) .kn {
+    flex-direction: row-reverse;
 }
 
 .sekcija {
-    margin-bottom: 120px;
+    margin-bottom: 75px;
 }
 
 .prednosti {
@@ -202,7 +211,7 @@ body {
 }
 
 .prednosti-slika {
-    width: 700px;
+    width: 900px;
 }
 
 .pred {
@@ -266,7 +275,7 @@ header div {
 .logo {
     width: 75px;
     height: 75px;
-    box-shadow: 0px 0px 10px 0.1px rgb(27, 27, 27);;
+    box-shadow: 0px 0px 10px 0.1px rgb(27, 27, 27);
     border-radius: 100%;
 }
 
@@ -585,16 +594,55 @@ button:hover {
     box-shadow: 0px 0px 1rem 0.2px black;
 }
 
-.poruci p {
-    width: 275px;
-    margin-top: 200px;
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: centers;
+}
+
+.spec {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.spec h3{
+    color: var(--tamno-zelena);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.spec ul {
+    margin-left: 30px;
+}
+
+.spec ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.info p {
+    width: 315px;
     font-size: 1.3rem;
-    color: var(--tamnija-zelena);
+    color: black;
+    margin: 0;
+}
+
+.phone-spec {
+    display: none;
 }
 
 
 
 @media screen and (max-width: 1100px) {
+    .kn {
+        flex-direction: column-reverse !important;
+    }
+
+    .rad {
+        margin-top: 50px;
+    }
+
     .poruci {
         flex-direction: column;
         align-items: center;
@@ -613,6 +661,14 @@ button:hover {
 
     .order-form {
         margin: 0;
+    }
+
+    .info .spec {
+        display: none;
+    }
+
+    .phone-spec {
+        display: block;
     }
 }
 
@@ -664,21 +720,13 @@ button:hover {
         font-size: 1.4rem;
     }
 
-    .skica {
-        height: 200px;
+    .skica, .ugao {
+        width: 50vw;
+        height: auto;
     }
 
     .toplota {
         width: 60vw;
-        float: none;
-        margin-bottom: 20px;
-    }
-
-    .ugao {
-        width: 200px;
-        float:none;
-        margin-bottom: 20px;
-        margin-left: 0px;
     }
 
     .tekst {
@@ -919,5 +967,13 @@ button:hover {
     .poruci p {
         font-size: 1.1rem;
         width: 75%;
+    }
+
+    .phone-spec h3 {
+        font-size: 1.4rem;
+    }
+
+    .phone-spec ul li {
+        font-size: 0.9rem;
     }
 }

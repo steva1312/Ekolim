@@ -48,7 +48,7 @@ section h1 {
     margin-right: 75px;
 }
 
-.single iframe {
+.single iframe, video {
     width: 350px;
     height: 200px;
 }
