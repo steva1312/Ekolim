@@ -731,6 +731,7 @@ button:hover {
 
     .tekst {
         font-size: 1.1rem;
+        width: 75vw;
     }
 
     .video iframe {
