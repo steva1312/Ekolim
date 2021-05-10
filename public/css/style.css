@@ -188,7 +188,7 @@ body {
 }
 
 .sekcija {
-    margin-bottom: 75px;
+    margin-bottom: 100px;
 }
 
 .prednosti {
@@ -218,6 +218,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.sponzor {
+    width: 300px;
 }
 
 .gost  {
@@ -726,6 +730,10 @@ button:hover {
     }
 
     .toplota {
+        width: 60vw;
+    }
+
+    .sponzor {
         width: 60vw;
     }
 
