@@ -220,8 +220,14 @@ body {
     align-items: center;
 }
 
+.sponzori {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
 .sponzor {
-    width: 300px;
+    width: 13vw;
 }
 
 .gost  {
@@ -733,8 +739,12 @@ button:hover {
         width: 60vw;
     }
 
+    .sponzori {
+        grid-template-columns: 1fr;
+    }
+
     .sponzor {
-        width: 60vw;
+        width: 30vw;
     }
 
     .tekst {
@@ -849,6 +859,10 @@ button:hover {
 
     img[alt="ekipica"] {
         width: 85vw;
+    }
+
+    .naslov-sekcije {
+        margin-bottom: 50px;
     }
 }
 
