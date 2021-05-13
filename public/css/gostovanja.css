@@ -89,7 +89,8 @@ section h1 {
     }
 
     .portali {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
     }
 
     .portal {
