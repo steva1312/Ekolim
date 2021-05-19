@@ -96,4 +96,8 @@ section h1 {
     .portal {
         width: 40vw;
     }
+
+    .portal a img {
+        width: 100%;
+    }
 }

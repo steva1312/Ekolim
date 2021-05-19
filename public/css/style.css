@@ -156,9 +156,8 @@ body {
 }
 
 .rad {
-    border-radius: 1rem;
     height: 200px;
-    box-shadow: 0px 0px 10px 0.1px black;
+    box-shadow: 0px 3px 7px 0.1px black;
 }
 
 .toplota {
@@ -283,8 +282,8 @@ header div {
 }
 
 .logo {
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     box-shadow: 0px 0px 10px 0.1px rgb(27, 27, 27);
     border-radius: 100%;
 }
@@ -302,7 +301,6 @@ header div {
     text-decoration: none;
     color: var(--bela);
     font-size: 1.2rem;
-    font-weight: bold;
     transition: all 0.3s ease 0s;
 }
 
@@ -406,7 +404,7 @@ img[alt='ekipica'] {
     
     border-radius: 1rem;
     border: solid 5px var(--tamno-zelena);
-    box-shadow: 5px 5px 1rem 0.1px;
+    box-shadow: 0px 3px 7px 0.1px black;
 }
 
 .kartica:nth-child(odd) {
@@ -454,7 +452,7 @@ img[alt='ekipica'] {
     align-items: center;
 
     border: solid 5px var(--tamno-zelena);
-    box-shadow: 5px 5px 1rem 0.1px;
+    box-shadow: 0px 3px 7px 0.1px black;
 }
 
 .contact-form h2 {
@@ -600,8 +598,8 @@ button:hover {
 .poruci-slika {
     width: 250px;
     margin-top: 100px;
-    border-radius: 1rem;
-    box-shadow: 0px 0px 1rem 0.2px black;
+    box-shadow: 0px 3px 7px 0.1px black;
+
 }
 
 .info {
@@ -770,7 +768,8 @@ button:hover {
     }
 
     header {
-        padding-left: 10px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .logo {
@@ -810,7 +809,6 @@ button:hover {
         grid-template-rows: repeat(3, 3px);
         grid-template-columns: 35px;
         grid-gap: 8px;
-        margin-right: 5%;
         cursor: pointer;
     }
 
@@ -888,7 +886,7 @@ button:hover {
     }
 
     .naslov-sekcije {
-        font-size: 7.5vw;
+        font-size: 8.5vw;
         text-align: center;
     }
     
