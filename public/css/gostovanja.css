@@ -55,6 +55,11 @@ section h1 {
     grid-gap: 50px;
 }
 
+.portal {
+    display: flex;
+    align-items: center;
+}
+
 .portal a img {
     width: 200px;
 }
