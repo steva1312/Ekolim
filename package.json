@@ -1,13 +1,13 @@
 {
   "name": "ekolim",
   "version": "1.0.0",
-  "description": "Sajt kompanije \"Ekolim\"",
-  "main": "server/index.js",
+  "description": "Sajt kompanije Ekolim",
+  "main": "index.js",
   "scripts": {
-    "start": "node server/index",
-    "dev": "nodemon server/index"
+    "start": "node index",
+    "dev": "nodemon index"
   },
-  "author": "Стеван Ранђеловић",
+  "author": "Steva",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
